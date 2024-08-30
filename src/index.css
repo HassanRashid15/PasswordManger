@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "./App.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  
+}
+body {
+    font-family: "Mulish";
+    background-color: #f4f4f9 !important;
+    overflow-x: hidden;
+
+}
+:root{
+ --primary-color: #204c6a;
+ --button-color:#50b790;
+ --white-color:#ffffff;
+ --dark-gray: #2d2d2d;
+ --dark-light-gray:#1f1f1f;
+--charcoal:#4a4a4a;
+--shadow-gray:#454343;
+--greenish-light:#9dd3af;
+--eclispse-color:#2d3748;
+--near-moon-color:#63dae5;
+--bermuda-color:#1c7f8c;
+--placebo:#e5e7eb;
+--paris-paving:#737373;
+--warm-blue:#4f46e5;
+--transparent-color: #00000000.;
+}

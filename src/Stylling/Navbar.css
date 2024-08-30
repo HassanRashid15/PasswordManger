@@ -1,0 +1,93 @@
+.nav-custom{
+   
+    background: transparent;
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+.navbar-button{
+    background-color: var(--button-color) !important;
+}
+.navbar-button:hover{
+    background:var(--white-color) !important;
+    color: var(--button-color) !important;
+    border: 1px solid var(--button-color)  !important;
+}
+.navbar-custom-page {
+    width: 100%;
+    max-width: 85% !important;
+    margin: auto;
+}
+
+
+
+
+
+
+.signupnavbar-transparent {
+  background-color: transparent;
+  width: 100%;
+  position:absolute;
+  }
+  .signup-box-alignment{
+    max-width: 76% !important;
+  }
+  .signupnavbar-layout{
+    max-width: 87% !important;
+  }
+  
+  @media (max-width:767px){
+    .signupnavbar-transparent{
+        position:unset;
+        background-color: var(--primary-color);
+    }
+    .signup-box-alignment{
+        max-width: 90%;
+    }
+    .signup-layout-adjustment{
+        display: none;
+    }
+    .toggle-menu-custom{
+        padding-left: 35px;
+    }
+  }
+
+
+
+
+
+  .nav-custom {
+    background: transparent;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.bg-colored {
+    background-color: var(--primary-color); 
+}
+
+.navbar-button {
+    background-color: var(--button-color) !important;
+}
+
+.navbar-button:hover {
+    background: var(--white-color) !important;
+    color: var(--button-color) !important;
+    border: 1px solid var(--button-color) !important;
+}
+
+
+
+@media (max-width: 767px) {
+    .mobile-menu {
+        width: 100%;
+        margin: auto;
+        max-width: 83%;
+    }
+}

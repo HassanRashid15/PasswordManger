@@ -1,0 +1,56 @@
+.record-form-custom{
+    height: 80vh !important ; 
+    overflow: auto !important;
+  }
+  .record-form-custom-alignment{
+    height: 80vh;
+    overflow: auto;
+    padding: 60px 30px !important;
+  }
+  @media (max-width:639px){
+    .record-form-custom-alignment{
+        width: 76% !important;
+                margin: auto;
+  }
+}
+
+
+@media (min-width:768px) and (max-width:880px){
+    .user-info-alignment{
+     display: block !important;
+    }
+}
+@media (max-width:1023px){
+    .record-main-content-area{
+        min-height: unset !important;
+        overflow: unset !important;
+    }
+    .record-form-parent{
+        height: 100% !important;
+    }
+}
+@media (min-width:1024px){
+    .record-main-content-area{
+        padding-top:0px !important ;
+    }
+}
+.record-first-container{
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    gap: 30px;
+}
+.record-second-container{
+    height: 90%;
+}
+
+.record-second-container::-webkit-scrollbar {
+    display: none; 
+  }
+  .record-form-custom-alignment{
+    width: 700px !important;
+  }
+  .record-first-container button{
+width: 50px !important;
+  }
